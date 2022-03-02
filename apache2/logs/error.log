@@ -1,0 +1,5 @@
+[Thu Mar 03 01:52:22.982875 2022] [win32:error] [pid 6472:tid 776] (70014)End of file found: [client 127.0.0.1:61027] AH02101: Failed to read cgi file D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py for testing
+[Thu Mar 03 01:52:22.982875 2022] [cgi:error] [pid 6472:tid 776] (70014)End of file found: [client 127.0.0.1:61027] AH01222: don't know how to spawn child process: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py
+[Thu Mar 03 01:55:46.870843 2022] [win32:error] [pid 6472:tid 776] [client 127.0.0.1:61031] AH02102: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py is not executable; ensure interpreted scripts have "#!" or "'!" first line
+[Thu Mar 03 01:55:46.870843 2022] [cgi:error] [pid 6472:tid 776] (9)Bad file descriptor: [client 127.0.0.1:61031] AH01222: don't know how to spawn child process: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py
+[Thu Mar 03 01:56:24.367031 2022] [cgi:error] [pid 6472:tid 776] [client 127.0.0.1:61035] End of script output before headers: index.py

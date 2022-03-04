@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    background-color: #515151;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+#header {
+    text-align: center;
+    padding: 60px;
+    border-bottom: solid 5px #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 30px 10px 0 10px;
+}
+
+ul.table {
+    padding: 0;
+    width: 300px;
+    border-bottom: solid 2px #999999;
+}
+
+li:hover {
+    background-color: #363636;
+}
+
+/*#Zhongli {*/
+/*    padding: 30px 0 25px 90px;*/
+/*    list-style: none;*/
+/*    background-image: url("./img/Zhongli.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: left;*/
+/*    background-size: 80px;*/
+/*    font-size: 20px;*/
+/*    border: solid 2px #999999;*/
+/*}*/
+
+#char {
+    padding: 30px 0 25px 90px;
+    list-style: none;
+    /*background-image: url("./img/Raiden Shogun.png");*/
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+    font-size: 20px;
+    border: solid 2px #999999;
+    border-bottom: none;
+}
+
+#article {
+    padding: 30px;
+}
+

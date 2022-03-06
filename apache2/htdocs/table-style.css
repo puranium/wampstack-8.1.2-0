@@ -10,10 +10,20 @@ html, body {
     color: #ffffff;
 }
 
-#header {
+#head {
     text-align: center;
-    padding: 60px;
+    padding-top: 60px;
     border-bottom: solid 5px #ffffff;
+}
+
+#menu_list{
+    list-style: none;
+    height: 30px;
+}
+
+.list_item{
+  float: left;
+  margin-left: 60px;
 }
 
 a {

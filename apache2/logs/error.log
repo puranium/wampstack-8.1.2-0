@@ -3,3 +3,44 @@
 [Thu Mar 03 01:55:46.870843 2022] [win32:error] [pid 6472:tid 776] [client 127.0.0.1:61031] AH02102: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py is not executable; ensure interpreted scripts have "#!" or "'!" first line
 [Thu Mar 03 01:55:46.870843 2022] [cgi:error] [pid 6472:tid 776] (9)Bad file descriptor: [client 127.0.0.1:61031] AH01222: don't know how to spawn child process: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py
 [Thu Mar 03 01:56:24.367031 2022] [cgi:error] [pid 6472:tid 776] [client 127.0.0.1:61035] End of script output before headers: index.py
+[Sat Mar 05 19:27:34.990843 2022] [ssl:warn] [pid 4760:tid 680] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 05 19:27:35.020971 2022] [ssl:warn] [pid 4760:tid 680] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 05 19:27:35.151029 2022] [mpm_winnt:notice] [pid 4760:tid 680] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.2 configured -- resuming normal operations
+[Sat Mar 05 19:27:35.151029 2022] [mpm_winnt:notice] [pid 4760:tid 680] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Sat Mar 05 19:27:35.151029 2022] [core:notice] [pid 4760:tid 680] AH00094: Command line: 'D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\bin\\httpd.exe -d D:/Bitnami/wampstack-8.1.2-0/apache2 -f D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\conf\\httpd.conf'
+[Sat Mar 05 19:27:35.151029 2022] [mpm_winnt:notice] [pid 4760:tid 680] AH00418: Parent: Created child process 6532
+[Sat Mar 05 19:27:35.627592 2022] [ssl:warn] [pid 6532:tid 684] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 05 19:27:35.652446 2022] [ssl:warn] [pid 6532:tid 684] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 05 19:27:35.685568 2022] [mpm_winnt:notice] [pid 6532:tid 684] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 06 05:18:12.120398 2022] [mpm_winnt:notice] [pid 4760:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 06 05:18:14.163429 2022] [mpm_winnt:notice] [pid 6532:tid 684] AH00364: Child: All worker threads have exited.
+[Sun Mar 06 05:18:14.190495 2022] [mpm_winnt:notice] [pid 4760:tid 680] AH00430: Parent: Child process 6532 exited successfully.
+[Sun Mar 06 20:18:03.367727 2022] [ssl:warn] [pid 4436:tid 704] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 20:18:03.410442 2022] [ssl:warn] [pid 4436:tid 704] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 20:18:03.550721 2022] [mpm_winnt:notice] [pid 4436:tid 704] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.2 configured -- resuming normal operations
+[Sun Mar 06 20:18:03.550721 2022] [mpm_winnt:notice] [pid 4436:tid 704] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Sun Mar 06 20:18:03.550721 2022] [core:notice] [pid 4436:tid 704] AH00094: Command line: 'D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\bin\\httpd.exe -d D:/Bitnami/wampstack-8.1.2-0/apache2 -f D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\conf\\httpd.conf'
+[Sun Mar 06 20:18:03.558759 2022] [mpm_winnt:notice] [pid 4436:tid 704] AH00418: Parent: Created child process 7140
+[Sun Mar 06 20:18:04.048232 2022] [ssl:warn] [pid 7140:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 20:18:04.063859 2022] [ssl:warn] [pid 7140:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 20:18:04.095106 2022] [mpm_winnt:notice] [pid 7140:tid 500] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 06 20:52:33.287135 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61103] AH01215: Traceback (most recent call last):\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 20:52:33.287135 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61103] AH01215:   File "D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\htdocs\\index.py", line 18, in <module>\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 20:52:33.287135 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61103] AH01215:     with open('data/' + page_id, 'r') as f:\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 20:52:33.287135 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61103] AH01215: FileNotFoundError: [Errno 2] No such file or directory: 'data/form'\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 21:20:22.913316 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61948] AH01215: Traceback (most recent call last):\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 21:20:22.913316 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61948] AH01215:   File "D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\htdocs\\index.py", line 18, in <module>\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 21:20:22.913316 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61948] AH01215:     with open('data/' + page_id, 'r') as f:\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 21:20:22.913316 2022] [cgi:error] [pid 7140:tid 1268] [client 127.0.0.1:61948] AH01215: FileNotFoundError: [Errno 2] No such file or directory: 'data/form'\r: D:/Bitnami/wampstack-8.1.2-0/apache2/htdocs/index.py, referer: http://127.0.0.1/index.py
+[Sun Mar 06 21:35:58.242231 2022] [mpm_winnt:notice] [pid 4436:tid 704] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 06 21:36:00.256781 2022] [mpm_winnt:notice] [pid 7140:tid 500] AH00364: Child: All worker threads have exited.
+[Sun Mar 06 21:36:00.303842 2022] [mpm_winnt:notice] [pid 4436:tid 704] AH00430: Parent: Child process 7140 exited successfully.
+[Sun Mar 06 21:36:03.748907 2022] [ssl:warn] [pid 11832:tid 624] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 21:36:03.790294 2022] [ssl:warn] [pid 11832:tid 624] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 21:36:04.038594 2022] [mpm_winnt:notice] [pid 11832:tid 624] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.2 configured -- resuming normal operations
+[Sun Mar 06 21:36:04.038594 2022] [mpm_winnt:notice] [pid 11832:tid 624] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Sun Mar 06 21:36:04.038594 2022] [core:notice] [pid 11832:tid 624] AH00094: Command line: 'D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\bin\\httpd.exe -d D:/Bitnami/wampstack-8.1.2-0/apache2 -f D:\\Bitnami\\wampstack-8.1.2-0\\apache2\\conf\\httpd.conf'
+[Sun Mar 06 21:36:04.046622 2022] [mpm_winnt:notice] [pid 11832:tid 624] AH00418: Parent: Created child process 5244
+[Sun Mar 06 21:36:04.895190 2022] [ssl:warn] [pid 5244:tid 592] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 21:36:04.925042 2022] [ssl:warn] [pid 5244:tid 592] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 21:36:04.986535 2022] [mpm_winnt:notice] [pid 5244:tid 592] AH00354: Child: Starting 64 worker threads.
